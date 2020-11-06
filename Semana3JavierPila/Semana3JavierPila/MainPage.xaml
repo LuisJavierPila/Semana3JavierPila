@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana3JavierPila.MainPage">
+
+    <StackLayout>
+        <Label Text="Semana 3 - Navegacion">
+        </Label>
+
+        <Entry x:Name="txtUser"
+               Placeholder="Ingrese el usuario">
+        </Entry>
+
+        <Entry x:Name="txtPass"
+               Placeholder="Ingrese la contraseña"
+               IsPassword="True" Keyboard="Numeric">
+        </Entry>
+
+        <Button x:Name="btnAbrirVistaDos"
+                    Text="Abrir vista dos"
+                    Clicked="btnAbrirVistaDos_Clicked">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
